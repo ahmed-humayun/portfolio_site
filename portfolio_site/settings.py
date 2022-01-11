@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'quote_generator',
+    'portfolio',
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -118,10 +120,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_DIRS = [
+''' STATIC_DIRS = [
     BASE_DIR / 'quote_generator' / 'static',
     BASE_DIR / 'movie_booking'/ 'static',
-]
+] '''
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

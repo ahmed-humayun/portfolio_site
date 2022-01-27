@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'quote_generator',
     'portfolio', #added portfolio app
     'blog', #added blog app
+    'exchange_rate' #added exchange_rate app
 ]
 
 MIDDLEWARE = [
